@@ -1,6 +1,6 @@
 # cypress-links-test
 
-cypress framework with docker, percy integration and inbuilt mochawesome reporting
+cypress framework
 
 ### Prerequisite
 

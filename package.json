@@ -1,5 +1,5 @@
 {
-  "name": "cypress-boiler-plate",
+  "name": "refactored-jungle",
   "version": "1.0.0",
   "description": "implementation of cypress framework for testing links",
   "main": "index.js",
