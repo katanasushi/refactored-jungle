@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "cy:run": "sh cy-runner.sh",
-    "test:chrome": "cypress run --browser chrome --spec cypress/integration/mytests/dead.spec.js,cypress/integration/examples/aliasing.spec.js",
+    "test:chrome": "cypress run --browser chrome --spec cypress/integration/mytests/01_check_broken_links.spec.js",
+    "test:firefox": "cypress run --browser firefox --spec cypress/integration/mytests/01_check_broken_links.spec.js",
     "combine:report": "mochawesome-merge ./mochawesome-report/*.json > index.json",
     "generate:report": "marge index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html"
   },
