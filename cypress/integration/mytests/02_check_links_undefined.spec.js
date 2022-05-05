@@ -18,7 +18,6 @@ describe('Undefined links', () => {
                         const message = $el.text()
                         expect($el, message).to.have.attr("href").not.contain("undefined")
                         cy.log($el.attr('href'))
-                    //cy.visit($el.attr('href'))
                     }
         })
     })

@@ -1,6 +1,6 @@
 # cypress-links-test
 
-cypress framework
+Cypress dead-link checker, checking both for undefined in href and checking responses via pages set in fixtures/urls.json (initial 404 on brokenpage can be skipped and allow tests to check links on "404 Page")
 
 ### Prerequisite
 
