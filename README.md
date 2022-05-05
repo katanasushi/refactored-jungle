@@ -22,7 +22,6 @@ Once installation is completed successfully, run below command
 npx cypress open
 ```
 
-
 ## Headless Execution
 
 #### To execute all specs headlessly
@@ -31,13 +30,6 @@ npx cypress open
 npx cypress run
 ```
 
-#### Local Execution
-
-Use below command to run locally. This is a custom shell file with commands to run specific or all spec files and generate mochawesome report.
-
-```bash
-npm run execute-tests
-```
 ## CICD Integration
 
 ```bash
