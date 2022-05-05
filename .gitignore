@@ -1,5 +1,5 @@
 /node_modules
-/mochawesome-reportx
+/mochawesome-report
 /execution-report/*
 screenshots
 videos
