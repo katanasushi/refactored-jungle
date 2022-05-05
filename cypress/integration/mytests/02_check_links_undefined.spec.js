@@ -1,6 +1,6 @@
 import urls from '../../fixtures/urls.json'
 
-describe('Dead links', () => {
+describe('Undefined links', () => {
   urls.forEach((url) => {
     it(`Should check if links all links on ${url} do not contain undefined`, () => {
         cy.visit(`${url}`, {failOnStatusCode: false})

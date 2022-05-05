@@ -1,8 +1,8 @@
 import urls from '../../fixtures/urls.json'
 
-describe('Dead links', () => {
+describe('Responses of links', () => {
   urls.forEach((url) => {
-    it.only(`Should check dead links on ${url} including contents of pages returning 404`, () => {
+    it(`Should check dead links on ${url} including contents of pages returning 404`, () => {
         cy.visit(`${url}`,
         {failOnStatusCode: false}
         )
