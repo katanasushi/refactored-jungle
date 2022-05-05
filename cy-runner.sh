@@ -10,10 +10,10 @@ npx mochawesome-merge --reportDir mochawesome-report > execution-report/report.j
 
 # generate .html file from it and save it as detailed-report-<current timestamp>
 outfile="detailed-report-$(date  "+%d-%m-%Y-%R")"
-npx marge execution-report/*.json -f $outfile -o execution-report --overwrite false
+npx merge execution-report/*.json -f $outfile -o execution-report --overwrite false
 
 # open file in google chrome immeditely on merging
-open -a "google chrome" "execution-report/$outfile.html"
+# open -a "google chrome" "execution-report/$outfile.html"
 
 # remove reports folder as it is not required anymore
 rm -r -f reports
